@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cse.sust.kidslearning.start"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alphabet Quize"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textSize="50dp"
+        android:textColor="#80cbc4" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Reach overtop by touching screen and Scroll down by give up touch. Thus, collect the highest correct word."
+        android:id="@+id/textView"
+        android:layout_margin="20dp"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:background="#ffbb33" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" START "
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:onClick="startGame"/>
+
+
+</LinearLayout>

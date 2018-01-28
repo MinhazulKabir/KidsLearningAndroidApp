@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cse.sust.kidslearning.result"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="~GAME OVER~"
+        android:textColor="#ff0004"
+        android:textStyle="bold"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="150"
+        android:textStyle="bold"
+        android:textSize="150dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#009688"
+        android:background="#FF87F5EB" />
+
+    <TextView
+        android:id="@+id/highScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Score : 300"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#7fa87f" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Try Again"
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:onClick="tryAgain"/>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Kids Learning</string>
+    <string name="x1"> 1</string>
+    <string name="x2"> 2</string>
+    <string name="x3"> 3</string>
+    <string name="x4"> 4</string>
+    <string name="x5"> 5</string>
+    <string name="x6"> 6</string>
+    <string name="x7"> 7</string>
+    <string name="x8"> 8</string>
+    <string name="x9"> 9</string>
+    <string name="x0"> 10</string>
+    <string name="onetop1">1        One</string>
+    <string name="twotop2">2        Two</string>
+    <string name="threetop3">3      Three</string>
+    <string name="fourtop4">4       Four</string>
+    <string name="fivetop5">5       Five</string>
+    <string name="sixtop6">6        Six</string>
+    <string name="seventop7">7      Seven</string>
+    <string name="eighttop8">8      Eight</string>
+    <string name="ninetop9">9       Nine</string>
+    <string name="tentop0">10       Ten</string>
+    <string name="onedown1">One    Bird</string>
+    <string name="twodown2">Two    Birds</string>
+    <string name="threedown3">Three    Birds</string>
+    <string name="fourdown4">Four    Birds</string>
+    <string name="fivedown5">Five    Birds</string>
+    <string name="sixdown6">Six    Birds</string>
+    <string name="sevendown7">Seven    Birds</string>
+    <string name="eightdown8">Eight    Birds</string>
+    <string name="ninedown9">Nine    Birds</string>
+    <string name="tendown0">Ten    Birds</string>
+
+</resources>

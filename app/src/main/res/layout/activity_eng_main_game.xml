@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cse.sust.kidslearning.EnglishGames">
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:textColor="#029d1b"
+        android:gravity="center"/>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/startLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap   anywhere \nto  Start  Game"
+            android:textSize="40dp"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="#00c6a1" />
+
+        <ImageView
+            android:id="@+id/box"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/box"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/orange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="45dp"
+            android:background="#0ff"
+            />
+
+        <TextView
+            android:id="@+id/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45dp"
+            android:layout_gravity="center"
+            android:background="#0ff" />
+
+        <TextView
+            android:id="@+id/pink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="45dp"
+            android:background="#0ff"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Every correct word refers to 10/15 MARKS and wrong word refers to GAME OVER"
+            android:textSize="35dp"
+            android:textColor="#d41c00"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:id="@+id/startLabel2"
+            android:background="#00ff1e"
+            android:layout_gravity="center_horizontal|bottom" />
+    </FrameLayout>
+
+</LinearLayout>

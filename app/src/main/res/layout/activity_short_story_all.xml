@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="cse.sust.kidslearning.ShortStoryAll"
+    android:background="@drawable/ashar">
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:text="সিংহ এবং ইদুর"
+        android:background="@drawable/round_shape_btn"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:id="@+id/StoryNumber001"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:text="কাক ও শিয়াল"
+        android:background="@drawable/round_shape_btn"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:id="@+id/StoryNumber002"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:text="খরগোশ ও কচ্ছপ"
+        android:background="@drawable/round_shape_btn"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:id="@+id/StoryNumber004"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:text="শিয়াল ও বক"
+        android:background="@drawable/round_shape_btn"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:id="@+id/StoryNumber003"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:text="তৃষ্ণার্ত কাক"
+        android:background="@drawable/round_shape_btn"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:id="@+id/StoryNumber005"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
+</LinearLayout>

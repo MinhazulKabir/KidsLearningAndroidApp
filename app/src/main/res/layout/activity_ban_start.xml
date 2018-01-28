@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cse.sust.kidslearning.Banglastart"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="অক্ষর খেলা"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textSize="50dp"
+        android:textColor="#80cbc4" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="স্পর্শের মাধ্যমে উপরে উঠুন এবং ছেড়ে দিয়ে নিচে নামুন । এইভাবে সর্বচ্চ সংখ্যক সঠিক শব্দ ধরুন  ।"
+        android:id="@+id/textView"
+        android:layout_margin="20dp"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:background="#ffbb33" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="খেলা শুরু করুন"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:onClick="startGame"/>
+
+
+</LinearLayout>

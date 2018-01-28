@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cse.sust.kidslearning">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".alphabet" />
+        <activity android:name=".number">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CountingOne">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CountingTwo" />
+        <activity android:name=".CountingThree">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CountingFour" />
+        <activity android:name=".CountingFive">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CountingSix">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CountingSeven" />
+        <activity android:name=".CountingEight"/>
+        <activity android:name=".CountingNine"/>
+        <activity android:name=".CountingTen"/>
+        <activity android:name=".ShortStoryAll">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LionAndMouse">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Bangla">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".BanglaVowelLearning">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EnglishFragment" />
+        <activity android:name=".FoxAndCrow" />
+        <activity android:name=".FoxAndStork" />
+        <activity android:name=".HareAndTortoise" />
+        <activity android:name=".BanglaConLearning" />
+        <activity android:name=".ChoseQuiz" />
+        <activity android:name=".result"/>
+        <activity android:name=".EnglishGames" />
+        <activity android:name=".start"/>
+        <activity android:name=".Banglaresult"/>
+        <activity android:name=".BanglaGames" />
+        <activity android:name=".Banglastart"/>
+        <activity android:name=".ThirstyCrow"></activity>
+    </application>
+
+</manifest>
